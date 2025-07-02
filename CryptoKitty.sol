@@ -10,7 +10,7 @@ contract SimpleCryptoKitties is ERC721 {
     uint256 public _tokenIdCounter= 1;
 
     constructor() ERC721("SimpleCryptoKitties", "SCK") {
-        _tokenIdCounter = 0;
+        
     }
 
 }
